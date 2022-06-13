@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js add react-native-safe-area-content
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js add firebase
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/react-native-safe-area-content: Not found
+  Error: https://registry.yarnpkg.com/react-nativec-web: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:66138:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:140883:22)
       at Request.emit (node:events:527:28)
@@ -52,7 +52,7 @@ npm manifest:
       "react-native-safe-area-context": "4.2.4",
       "react-native-screens": "~3.11.1",
       "react-native-vector-icons": "^9.1.0",
-      "react-native-web": "0.17.7"
+      "react-nativec-web": "0.17.7"
     },
     "devDependencies": {
       "@babel/core": "^7.12.9"

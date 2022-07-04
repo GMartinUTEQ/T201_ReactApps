@@ -1,6 +1,6 @@
 import {NavigationContainer} from "@react-navigation/native"
 import {AppNavegacion} from "./src/navigation/AppNavegacion"
-
+import {initFirebase} from "./src/utils/"  
 export default function App() {
   return (
     <>

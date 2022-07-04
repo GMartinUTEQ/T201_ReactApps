@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { CuentaVista }  from "../vistas/CuentaVista";
+import { CuentaVista }  from "../vistas/Cuenta/CuentaVista";
 import {vista} from "../utils";
 
 const Stack = createNativeStackNavigator();

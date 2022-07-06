@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { View, Text } from 'react-native'
 import {getAuth, onAuthStateChanged} from "firebase/auth";
-import {InvitadoVista} from "./InvitadoVista";
+import {InvitadoVista} from "./UsuarioInvitado/InvitadoVista";
 import { RegistradoVista } from './RegistradoVista';
 import { LoadingModal } from "../../components"
 
@@ -19,7 +19,7 @@ export  function CuentaVista() {
 
   if(Accedido === null)
   {
-    return <LoadingModal />
+    return <InvitadoVista />
   }
   return Accedido ? <RegistradoVista/> : <InvitadoVista/>;
 }

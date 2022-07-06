@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-export  function InvitadoVista() {
+export  function LoginVista() {
   return (
     <View>
-      <Text>InvitadoVista</Text>
+      <Text>LoginVista</Text>
     </View>
   )
 }

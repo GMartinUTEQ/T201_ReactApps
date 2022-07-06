@@ -18,6 +18,7 @@ const BuscarStack = {
 const CuentaStack = {
     tab: "CuentaTab",
     Cuenta: "Cuenta",
+    Login: "Login",
 }
 export const vista = {
     Restaurante: RestauranteStack,

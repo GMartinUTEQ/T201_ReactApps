@@ -1,7 +1,8 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { CuentaVista }  from "../vistas/Cuenta/CuentaVista";
 import {vista} from "../utils";
-import { LoginVista } from "../vistas/Cuenta/LoginVista";
+import { LoginVista } from "../vistas/Cuenta/VistaLogin/";
+import {RegistroVista } from "../vistas/Cuenta/VistaRegistro"
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,11 @@ export function CuentaStack() {
         name={vista.Cuenta.Login } 
         component={LoginVista} 
         options = {{title:"Iniciar Sesión"}}
+        />
+        <Stack.Screen 
+        name={vista.Cuenta.register } 
+        component={RegistroVista} 
+        options = {{title:"Crear cuenta"}}
         />
     </Stack.Navigator>
   )

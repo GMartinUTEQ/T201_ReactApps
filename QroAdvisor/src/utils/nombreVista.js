@@ -19,6 +19,7 @@ const CuentaStack = {
     tab: "CuentaTab",
     Cuenta: "Cuenta",
     Login: "Login",
+    register: "Register",
 }
 export const vista = {
     Restaurante: RestauranteStack,

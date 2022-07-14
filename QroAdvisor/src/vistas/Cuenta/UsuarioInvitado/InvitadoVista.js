@@ -15,7 +15,7 @@ export  function InvitadoVista() {
   }
   return (
     <ScrollView centerContent={true} style={styles.content}>
-      <Image source={require("../../../../assets/img/Logo.jpg")} style={styles.image}/>
+      <Image source={require("../../../../assets/img/Logo.png")} style={styles.image}/>
       <Text style={styles.title}>Consultar tu perfil de QroAdvisor</Text>
       <Text style={styles.descripcion}>Describe tu restaurante favorito, 
       busca y visualiza opciones similares

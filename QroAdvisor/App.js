@@ -1,12 +1,15 @@
 import {NavigationContainer} from "@react-navigation/native"
 import {AppNavegacion} from "./src/navigation/AppNavegacion"
-import {initFirebase} from "./src/utils/"  
+import {initFirebase} from "./src/utils/" 
+import Toast from "react-native-toast-message"; 
 export default function App() {
   return (
     <>
       <NavigationContainer>
         <AppNavegacion />
       </NavigationContainer>
+
+      <Toast/>
     </>
   );
 }

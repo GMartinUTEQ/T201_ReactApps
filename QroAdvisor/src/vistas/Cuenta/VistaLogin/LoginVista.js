@@ -4,6 +4,7 @@ import {Text, Image} from "react-native-elements";
 import {styles} from "./LoginVista.styles";
 import { useNavigation } from '@react-navigation/native';
 import {vista} from "../../../utils"
+import { FormLogin } from "../../../components/auth/formLogin"
 
 export  function LoginVista() {
 
@@ -15,11 +16,16 @@ export  function LoginVista() {
 
   return (
     <ScrollView>
-      <Image source={require("../../../../assets/img/Logo.jpg")} 
+      <Image source={require("../../../../assets/img/Logo.png")} 
       style={styles.image}/>
       <View style={styles.content}>
-        <Text>Estamos en Login</Text>
-        <Text onPress={IrARegistro} >Registrarse</Text>
+        <FormLogin/>
+        <Text style={styles.textRegistro}>
+          ¿Aún no tienes cuenta?
+          <Text 
+            style={styles.btnRegistro} 
+            onPress={IrARegistro} >Registrarse</Text>
+        </Text>
       </View>
       
     </ScrollView>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { View, Text } from 'react-native'
 import {getAuth, onAuthStateChanged} from "firebase/auth";
 import {InvitadoVista} from "./UsuarioInvitado/InvitadoVista";
-import { RegistradoVista } from './RegistradoVista';
+import { RegistradoVista } from './RegistradoVista/RegistradoVista';
 import { LoadingModal } from "../../components"
 
 export  function CuentaVista() {
@@ -13,7 +13,7 @@ export  function CuentaVista() {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       /*console.log(user);*/
-      //setAccedido(user ? true : false);
+      setAccedido(user ? true : false);
     })
   }, [])
 

@@ -9,6 +9,7 @@ export  function LoadingModal(props) {
     <Overlay isVisible={show}>
       <View>
       <ActivityIndicator size="large" color="#00a680" />
+      <Text>{text || "Cargando..."}</Text>
       </View>
     </Overlay>
     
